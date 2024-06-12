@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+#personajes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#personajes div {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    width: 200px;
+    text-align: center;
+}
+
+#personajes h4 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+#personajes img {
+    max-width: 100%;
+    height: auto;
+}
